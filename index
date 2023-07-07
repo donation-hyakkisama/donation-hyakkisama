@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faites un Don</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      color: #666666;
+      text-align: center;
+    }
+    
+    .donate-button {
+      display: block;
+      max-width: 200px;
+      margin: 20px auto;
+    }
+    
+    .highlight {
+      color: #FF0000;
+      font-weight: bold;
+    }
+    
+    .tribute-section {
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .tribute-title {
+      color: #333333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .tribute-text {
+      color: #666666;
+      font-size: 18px;
+    }
+    
+    .tribute-image {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Faites un Don</h1>
+  
+    <p>Votre soutien est précieux pour notre cause.</p>
+  
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_donations">
+      <input type="hidden" name="business" value="ismaladen83@gmail.com">
+      <input type="hidden" name="currency_code" value="EUR">
+      <input class="donate-button" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="Faire un don avec PayPal">
+      <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    
+    <p>Merci pour votre soutien ! Chaque don compte pour nous.</p>
+    
+    <div class="tribute-section">
+      <h2 class="tribute-title">Hommage à Hyakkisama</h2>
+      <p class="tribute-text">Nous aimerions rendre hommage à hyakkisama, un chien courageux qui a perdu la vie pendant une émeute à Nanterre.</p>
+      <img class="tribute-image" src="https://cdn.discordapp.com/attachments/1123509391308640277/1126924812300865596/3de121ac-cc4d-8ab4-416b-39ef3de88d2a_min.png" alt="Nahel">
+      <p class="tribute-text">hyakkisama restera dans nos cœurs comme un symbole de force et de résilience.</p>
+    </div>
+    
+    <hr>
+    
+    <p>Pourquoi faire un don :</p>
+    
+    <ul>
+      <li>Contribuer à un projet/cause importante</li>
+      <li>Aider ceux qui en ont besoin</li>
+      <li>Faire une différence positive</li>
+    </ul>
+    
+    <hr>
+    
+    <p>À propos de notre organisation :</p>
+    
+    <p>Nous sommes une organisation à but non lucratif dédiée à l'indménisation des victimes des émeutes. Votre don nous aide à continuer notre travail et à réaliser notre objectif.</p>
+  </div>
+
+</body>
+</html>
